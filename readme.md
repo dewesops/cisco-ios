@@ -13,13 +13,13 @@
 ## Быстрая проверка (Show)
 
 ```ios
-show vlan brief                      ! Список VLAN и назначенных портов
-show int trunk                       ! Активные транки
-show vtp status                      ! Статус VTP
-show etherchannel summary            ! Состояние Port-Channel
-show port-security int fa0/1         ! Статус Port-Security на порту
-show ip dhcp snooping binding        ! Таблица привязок IP-MAC
-show ip ospf neighbor                ! Соседи OSPF
-show ip route                        ! Таблица маршрутизации
-show running-config                  ! Текущая конфигурация
+show vlan brief                      - Список VLAN и назначенных портов
+show int trunk                       - Активные транки
+show vtp status                      - Статус VTP
+show etherchannel summary            - Состояние Port-Channel
+show port-security int fa0/1         - Статус Port-Security на порту
+show ip dhcp snooping binding        - Таблица привязок IP-MAC
+show ip ospf neighbor                - Соседи OSPF
+show ip route                        - Таблица маршрутизации
+show running-config                  - Текущая конфигурация
 ```
